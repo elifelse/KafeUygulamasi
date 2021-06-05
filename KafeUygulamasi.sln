@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafeUygulamasi.UI", "KafeUygulamasi.UI\KafeUygulamasi.UI.csproj", "{D1651890-8CED-47A2-A38B-C1BF1CD2C63E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCDE26AE-C844-4E56-8228-0AFBD3B40060} = {DCDE26AE-C844-4E56-8228-0AFBD3B40060}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafeUygulamasi.Data", "KafeUygulamasi.Data\KafeUygulamasi.Data.csproj", "{DCDE26AE-C844-4E56-8228-0AFBD3B40060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1651890-8CED-47A2-A38B-C1BF1CD2C63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1651890-8CED-47A2-A38B-C1BF1CD2C63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1651890-8CED-47A2-A38B-C1BF1CD2C63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1651890-8CED-47A2-A38B-C1BF1CD2C63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCDE26AE-C844-4E56-8228-0AFBD3B40060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDE26AE-C844-4E56-8228-0AFBD3B40060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDE26AE-C844-4E56-8228-0AFBD3B40060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDE26AE-C844-4E56-8228-0AFBD3B40060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ED080BB-84A9-4AE5-8CAB-B942A089618B}
+	EndGlobalSection
+EndGlobal
